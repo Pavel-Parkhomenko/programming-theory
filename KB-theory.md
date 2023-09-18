@@ -27,19 +27,28 @@ void hash_func(string str) { // "Hello"
 ## Функции, методы, свойства
 
 __ STL ``#include <algorithm>``___
+```
 - it = min_element(li.begin(), li.end());
 - it = max_element(li.begin(), li.end());
 - it = find(li.begin(), li.end(), 2); // ищем в списке число 2
-- li.insert(it, 7); - вставляем 7 по it
+- binary_search(vec.begin(), vec.end(), 2); // true || false
+- li.insert(it, 7); // вставляем 7 по it
 - std::reverse(vect.begin(), vect.end());
 - std::sort(vect.begin(), vect.end());
+- std::count(vec.begin(), vec.end(), 4); // кол-во 4 в vec
+- std::min(var1, var2) и std::max(var1, var2)
+- int res = std::accumulate(vec.begin(), vec.end(), 0); // сумма вектора
+- std::shuffle(vec.begin(), vec.end(), gen); // gen=random, меняет vec
+- for_each(vec.begin(), vec.end(), [](int &x) { x = x * 2; }); // увеличиваем каждый элемент в 2 раза
+- std::copy(source.begin(), source.end(), std::back_inserter(res)); // коп. из sourse в res
+```
 
 __ String, c-style str __
-- sSomething.c_str() конвертация string в c-style
-- const char* string::data() const - Возвращает содержимое std::string в виде константной строки C-style.
-- sString.append(sTemp, 8, 4); // добавляем к std::string подстроку sTemp. ПЕРЕГРУЗКИ
-- string& string::insert(size_type index, const string& str) - вставляет символы/строки, начиная с определенного index std::string. ПЕРЕГРУЗКИ
-- strcat(char1[], char2[]] - копирует 2 масив в 1 (добавляет в 1, не изменяет)
+- ``sSomething.c_str()`` конвертация string в c-style
+- ``const char* string::data() const`` - Возвращает содержимое std::string в виде константной строки C-style.
+- ``sString.append(sTemp, 8, 4);`` // добавляем к std::string подстроку sTemp. ПЕРЕГРУЗКИ
+- ``string& string::insert(size_type index, const string& str)`` - вставляет символы/строки, начиная с определенного index std::string. ПЕРЕГРУЗКИ
+- ``strcat(char1[], char2[])`` - копирует 2 масив в 1 (добавляет в 1, не изменяет)
 
 
 
