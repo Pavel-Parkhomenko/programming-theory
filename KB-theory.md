@@ -86,20 +86,16 @@ __ String, c-style str __
 <details><summary>5. Какие итераторы бывают?</summary><p>
   
   test `jjj` test
+  ```
+  A(1)    A(2)
+    |      |
+    B      C
+     \    /
+        D
+  ```
   
 </p></details>
 
-<details><summary><b>Answer</b></summary>
-<p>
-
-#### Answer: A
-
-The unary plus tries to convert an operand to a number. `true` is `1`, and `false` is `0`.
-
-The string `'Lydia'` is a truthy value. What we're actually asking, is "Is this truthy value falsy?". This returns `false`.
-
-</p>
-</details>
 
 <details>
     <summary>6. Как в произвольное место в векторе вставить число?</summary>
