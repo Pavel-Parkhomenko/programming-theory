@@ -82,9 +82,23 @@ __ String, c-style str __
   <summary>4. Что такое куча и стек вызовов?</summary><p>
   "Куча" (heap) и "стек вызовов" ``(call stack)`` - это две разные области памяти. Стек вызовов используется для хранения информации о функциях, которые в данный момент вызываются в вашей программе. Куча используется для динамического выделения памяти во время выполнения программы. Это место, где вы можете создавать объекты и структуры данных переменного размера, и они остаются в памяти до явного освобождения.
 </p></details>
-<details>
-    <summary>5. Какие итераторы бывают?</summary>
-    ---
+
+<details><summary>5. Какие итераторы бывают?</summary><p>
+  
+  test `jjj` test
+  
+</p></details>
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+#### Answer: A
+
+The unary plus tries to convert an operand to a number. `true` is `1`, and `false` is `0`.
+
+The string `'Lydia'` is a truthy value. What we're actually asking, is "Is this truthy value falsy?". This returns `false`.
+
+</p>
 </details>
 
 <details>
