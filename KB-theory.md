@@ -365,7 +365,7 @@ __ String, c-style str __
 
 </p></details>
 
-1. <details><summary>43. Для чего нужен спецификатор final?</summary>
+<details><summary>43. Для чего нужен спецификатор final?</summary>
 <p>
   
   С помощью спецификатора `final` мы можем запретить наследование: `class Person final {};`
